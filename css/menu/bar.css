@@ -1,0 +1,25 @@
+/*.bar,
+.fa-times {
+    width: 1.5rem;
+    height: 3px;
+    display: block;
+    color: #fff;
+    padding: 0;
+    margin: 6px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    background-color: #fff;
+}
+
+.bar:nth-child(1) {
+    width: 100%;
+}
+
+.bar:nth-child(2) {
+    width: 200%;
+}
+
+.bar:nth-child(3) {
+    width: 300%;
+}
+*/

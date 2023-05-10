@@ -1,0 +1,11 @@
+/*.menu__link{
+    color:var(--fuente-blanco);
+    text-decoration: none;
+    font-size: 1.5rem;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+a .menu__link:hover{
+    color: var(--boton-verde);
+}*/

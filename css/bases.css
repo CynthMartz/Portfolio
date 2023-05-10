@@ -1,0 +1,69 @@
+:root{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    /*Colores de fondo*/
+
+    
+    /*Bordes*/
+    --border-cabecera-mobile: #103D4A;
+    
+    /*Botón*/
+    --boton-lila: #5C307D;
+    --boton-verde:#00D3AE;
+    --boton-verde:#7B61FF;/*38%*/
+    
+    /*Fuente*/
+    --fuente-blanco: #F4F4F4;
+    
+    
+    /*Enlace*/
+    --fuente-enlace: #0006FF;
+    
+    /*Footer*/
+    --background-footer: #333333;
+    
+    /*Fuente de texto*/
+    --poppins:'Poppins', sans-serif;
+    --quattrocento-sans:'Quattrocento Sans', sans-serif;
+
+    }
+    
+    body{
+        height: 100vh;
+        width: 100%;
+    }
+        
+    h1,h2,h3,h4,h5,h6{
+        font-family: var(--poppins);
+    }
+
+    p{
+        font-family: var(--quattrocento-sans);
+    }
+    .container{
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    
+    .boton{
+        text-align: center;
+        display: block;
+        width: 100%;
+        max-width: 350px;
+        box-sizing: border-box;
+        padding: 1rem 2rem;
+        border: 1px solid var(--boton-rojo);
+        border-radius: 5px;
+    }
+
+    ul, li {
+        padding: 0;
+    }
+    /*
+    @media screen and (min-width: 1024px) {
+        .container {
+            padding-left: calc((100% - 940px)/2);
+            padding-right: calc((100% - 940px)/2);
+        }
+    }*/
