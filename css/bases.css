@@ -10,12 +10,12 @@
     
     /*Botón*/
     --boton-lila: #5C307D;
-    --boton-verde:#00D3AE;
+    
     --boton-verde:#7B61FF;/*38%*/
     
     /*Fuente*/
     --fuente-blanco: #F4F4F4;
-    
+    --fuente-verde:#00D3AE;
     
     /*Enlace*/
     --fuente-enlace: #0006FF;
@@ -36,6 +36,7 @@
         
     h1,h2,h3,h4,h5,h6{
         font-family: var(--poppins);
+        color: var(--fuente-blanco);
     }
 
     p{
