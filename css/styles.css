@@ -179,11 +179,37 @@ a.menu__link:hover {
 .portada{
     display: flex;
     justify-content: space-between;
+    padding-top: 100px;
+    margin: 0 120px;
+}
+.portada__contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
 }
 .portada__titulo{
     display: flex;
-    
+
 }
+.mano{
+    width: 50px;
+    margin-right: 10px;
+    float: left;
+}
+.titulo{
+    
+    line-height: 54px;
+}
+
 .contenido__blanco{
     color: var(--fuente-blanco);
+    
+    line-height: 1.5rem;
+    font-size: 20px;
+}
+
+.portada__subtitulo{
+    margin-top: 8px;
+    padding-right: 450px;
 }
