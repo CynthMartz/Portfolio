@@ -37,14 +37,16 @@
         
     h1,h2,h3,h4,h5,h6{
         font-family: var(--poppins);
+    }
+    h1{
         color: var(--fuente-blanco);
     }
-
     h6{
         font-size: small;
     }
     p{
         font-family: var(--quattrocento-sans);
+        font-size: 2rem;
     }
     .container{
         padding-left: 6%;
@@ -65,10 +67,3 @@
     ul, li {
         padding: 0;
     }
-    /*
-    @media screen and (min-width: 1024px) {
-        .container {
-            padding-left: calc((100% - 940px)/2);
-            padding-right: calc((100% - 940px)/2);
-        }
-    }*/

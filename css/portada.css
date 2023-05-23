@@ -1,0 +1,36 @@
+.portada {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    /* ver como solucionar esta parte
+    margin: 0 120px;
+    */
+}
+
+/*Mobile*/
+@media only screen and (max-width: 480px){
+    .container{
+        margin: 0;
+        max-width: 100%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .portada{
+        display: block;
+        margin: 0px;
+    }
+}
+
+/*Tablet*/
+@media only screen and (max-width: 768px) {
+    .container{
+        margin: 0;
+        max-width: 100%;
+        padding-left: 4%;
+        padding-right: 4%;
+        }
+        .portada{
+            display: block;
+            margin: 0px;
+        }
+}   
