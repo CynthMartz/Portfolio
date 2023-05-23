@@ -17,6 +17,7 @@
     }
     .portada{
         display: block;
+        padding-top: 50px;
         margin: 0px;
     }
 }
@@ -31,6 +32,7 @@
         }
         .portada{
             display: block;
+            padding-top: 20px;
             margin: 0px;
         }
 }   

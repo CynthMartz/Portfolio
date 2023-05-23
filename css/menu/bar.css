@@ -1,4 +1,4 @@
-.bar, .fa-times {
+.bar , .fa-times {
     width: 1.5rem;
     height: 3px;
     display: block;
@@ -8,7 +8,7 @@
     -webkit-transition: 0.5s;
     transition: 0.5s;
     background-color:var(--fuente-blanco);
-}
+}   
 
 .bar:nth-child(1) {
     width: 100%;
