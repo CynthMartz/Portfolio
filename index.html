@@ -18,31 +18,26 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/logo.css">
     <link rel="stylesheet" href="./css/menu/navbar.css">
-    <link rel="stylesheet" href="./css/menu/menu-item.css">
+    <link rel="stylesheet" href="./css/menu/nav-menu.css">
     <link rel="stylesheet" href="./css/menu/menu-link.css">
-    <link rel="stylesheet" href="./css/menu/menu-lista.css">
-    <link rel="stylesheet" href="./css/menu/hamburguer.css">
+    <link rel="stylesheet" href="./css/menu/hamburger.css">
     <link rel="stylesheet" href="./css/menu/bar.css">
 </head>
 
 <body>
     <!--Menu-->
     <header class="container">
-
         <div class="logo">
             <h1>CM</h1>
         </div>
 
         <nav class="navbar">
             <ul class="nav__menu">
-                <li class="menu__item"><a href="#sobre-mi" class="menu__link">Sobre mí</a></li>
-                <li class="menu__item"><a href="#skills" class="menu__link">Skills</a></li>
-                <li class="menu__item"><a href="#formacion" class="menu__link">Formación</a></li>
-                </li>
-                <li class="menu__item"><a href="#proyectos" class="menu__link">Proyectos</a></li>
-                </li>
-                <li class="menu__item"><a href="#contacto" class="menu__link">Contacto</a></li>
-                </li>
+                <li><a href="#sobre-mi" class="menu__link">Sobre mí</a></li>
+                <li><a href="#skills" class="menu__link">Skills</a></li>
+                <li><a href="#formacion" class="menu__link">Formación</a></li>
+                <li><a href="#proyectos" class="menu__link">Proyectos</a></li>
+                <li><a href="#contacto" class="menu__link">Contacto</a></li>
             </ul>
         </nav>
 
@@ -71,12 +66,13 @@
         </section>
 
         <!--Sobre mí-->
-        <section class="container container__sobreMi">
+        <section class="container container__sobreMi "id="sobre-mi">
             <div class="sobre__mi">
                 <img src="img/celular.png" alt="Celular en la mano">
                 <div class="parrafo__sobreMi">
                     <h2 class="subtitulo__blanco">Sobre mí</h2>
-                    <p class="contenido__blanco parrafo__blanco">Soy estudiante de desarrolladora front end, me apasiona colaborar en
+                    <p class="contenido__blanco parrafo__blanco">Soy estudiante de desarrolladora front end, me apasiona
+                        colaborar en
                         equipo y ayudar en todo lo
                         posible.
                         Siempre me he sentido muy comprometida con el aprendizaje, tanto enseñando como aprendiendo de
@@ -94,9 +90,9 @@
             </div>
         </section>
         <!--Skills-->
-        <section class="container skills">
+        <section class="container skills" id="skills">
             <h2 class="subtitulo__negro">Skills</h2>
-            <div class="cards__tecno" >
+            <div class="cards__tecno">
                 <div class="card">
                     <img src="img/figma.png" alt="Figma">
                 </div>
@@ -123,10 +119,10 @@
                 </div>
             </div>
         </section>
-        <!--Formación académica https://uiverse.io/joe-watson-sbf/little-goat-24-->
-        <section class="container formacion">
+        <!--Formación académica-->
+        <section class="container formacion" id="formacion">
             <h2 class="subtitulo__blanco titulo__formacion">Formación Académica</h2>
-            
+
             <div class="cards__tecno">
                 <div class="flip-card">
                     <div class="flip-card-inner">
@@ -139,7 +135,7 @@
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
@@ -151,7 +147,7 @@
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
@@ -163,16 +159,113 @@
                         </div>
                     </div>
                 </div>
-            </div>   
+            </div>
         </section>
 
-        <!--Proyectos  -->
+        <!--Proyectos-->
+        <section class="container skills" id="proyectos">
+            <h2 class="subtitulo__negro">Proyectos</h2>
+            <div class="container__projects">
+
+                <article class="cards_projects">
+                    <div class="overlay">
+                        <div class="items head">
+                            <p>Encriptador de texto</p>
+                            <p class="cards__contenido">Encriptador y desencriptador de textos con temática de Rick
+                                y Morty.</p>
+                            <hr>
+                        </div>
+                        <div class="items price">
+                            <button class="button__tecno ">HTML</button>
+                            <button class="button__tecno ">CSS</button>
+                            <button class="button__tecno">JavaScript</button>
+
+                        </div>
+                        <div class="items enlace">
+                            <button class="button_enlace"><a href="Figma">Figma</a></button>
+                            <button class="button_enlace"><a href="Demo">Demo</a></button>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!--Contacto-->
+        <section class="container formulario__contacto" id="contacto">
+            <h2 class="subtitulo__negro titulo__formacion">Contacto</h2>
+            <div class="contacto__container">
+                <img src="/img/Notebook-contacto.png" alt="">
+                <div>
+                    <div>
+                        <p class="contacto__titulo">¿Quieres contactarme?</p>
+                        <p class="contacto__descripcion">Complete el siguiente formulario y me pondré en contacto con
+                            usted lo antes posible.</p>
+                    </div>
+
+                    <form action="https://formsubmit.co/75dfb2d9fd093b82f85cb0cdede6fc29" method="POST"
+                        class="formulario" id="formulario">
+                        <fieldset class="fieldset">
+                            <div class="formulario__grupo" id="grupo__usuario">
+                                <div class="formulario__grupo-input">
+                                    <input type="text" id="nombre" name="nombre" class="formulario__input"
+                                        placeholder="Nombre Completo:" required data-tipo="nombreCompleto">
+                                    <label class="formulario__label" for="nombre">Nombre </label>
+                                    <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+                                    <span class="formulario__input-error">El campo no puede estar vacío</span>
+                                </div>
+                            </div>
+
+                            <div class="formulario__grupo" id="grupo__email">
+                                <div class="formulario__grupo-input">
+                                    <input type="email" id="email" name="email" class="formulario__input" required
+                                        placeholder="Correo Electrónico:" data-tipo="email">
+                                    <label class="formulario__label" for="email">Email</label>
+                                    <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+                                    <span class="formulario__input-error">Ingrese algun correo</span>
+                                </div>
+                            </div>
+
+                            <div class="formulario__grupo" id="grupo__asunto">
+                                <div class="formulario__grupo-input">
+                                    <input type="text" id="asunto" name="asunto" class="formulario__input"
+                                        placeholder="Asunto:" required data-tipo="asunto">
+                                    <label class="formulario__label" for="asunto">Asunto</label>
+                                    <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+                                    <span class="formulario__input-error">El campo no puede estar vacío</span>
+                                </div>
+                            </div>
+
+                            <div class="formulario__grupo" id="grupo__mensaje">
+                                <div class="formulario__grupo-input">
+                                    <textarea id="mensaje" name="mensaje" cols="70" rows="10"
+                                        class="formulario__input textarea" placeholder="Mensaje:" required
+                                        data-tipo="mensaje"></textarea>
+                                    <label class="formulario__label" for="mensaje">Mensaje</label>
+                                    <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+                                    <span class="formulario__input-error">El campo no puede estar vacío</span>
+                                </div>
+
+                            </div>
+                        </fieldset>
+                        <button type="submit" class="enviar"> Enviar
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                        <input type="hidden" name="_next"
+                            value="https://garciarojasp.github.io/portafolio_patricia/thanks.html">
+                        <input type="hidden" name="_template" value="table">
+                    </form>
+                </div>
+            </div>
+        </section>
 
     </main>
     <!--Footer-->
+
+
     <!--https://uiverse.io/ahmed150up/fluffy-dragonfly-49 REDES SOCIALES-->
-    <footer>
-        <h6>Desarrollado por Cynthia -2023</h6>
+    <footer class="container footer">
+        <h6 class="contenido__footer">Desarrollado por Cynthia -2023</h6>
     </footer>
     <script src="./js/Menu.js"></script>
 </body>
