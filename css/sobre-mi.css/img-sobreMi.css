@@ -1,13 +1,26 @@
-.img__sobreMi{
-        height: 288px;
-        padding-left: 25px;
-        padding-right: 25px;
+.img__sobreMi {}
+
+/*MObile*/
+
+@media screen and (min-width: 0) {
+        .img__sobreMi {
+                height: 120px;
+                padding: 0 10px;
+        }
 }
 
 /*Tablet*/
-
-@media screen and (min-width: 0) {
-        .img__sobreMi{
+@media screen and (min-width: 768px) {
+        .img__sobreMi {
                 height: 150px;
+                padding: 0 15px;
         }
-}  
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+        .img__sobreMi{
+                height: 288px;
+                padding: 0 25px;
+        }
+} 

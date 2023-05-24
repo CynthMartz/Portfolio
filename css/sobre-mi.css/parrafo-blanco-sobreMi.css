@@ -1,28 +1,36 @@
 
 .parrafo__blanco_sobreMi{
     color: var(--fuente-blanco);
-    line-height: 2.5rem;
     font-weight: 300;
-    padding-top: 30px;
-    font-size: 1.5rem;
 }
 
 
 /*Mobile*/
-/*
+
 @media screen and (min-width: 0) {
     .parrafo__blanco_sobreMi{
-        font-size: 1rem;
-        line-height: 1.5rem;
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        padding-top: 10px;
     }
 
 }
-*/
+
 /*Tablet*/
 @media screen and (min-width: 768px) {
     .parrafo__blanco_sobreMi{
         font-size: 1rem;
         line-height: 1.5rem;
+        padding-top: 20px;
     }
     
+} 
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+    .parrafo__blanco_sobreMi{
+        font-size: 1.5rem;
+        line-height: 2rem;
+        padding-top: 30px;
+        }
 } 

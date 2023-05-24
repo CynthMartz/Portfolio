@@ -6,7 +6,7 @@
 /*Mobile*/
 @media screen and (min-width: 0) {
     .portada__subtitulo {
-        font-size: 1rem;
+        font-size: 0.7rem;
         line-height: 1.5rem;
         padding-top: 15px;
         }
