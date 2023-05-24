@@ -1,0 +1,15 @@
+.parrafo__sobreMi {
+    padding-right: 64px;
+}
+/*Mobile*/
+@media  screen and (min-width: 0) {
+    .parrafo__sobreMi  {
+        padding-right: 16px;
+        }
+}
+/*Tablet*/
+@media screen and (min-width: 768px) {
+    .parrafo__sobreMi  {
+        padding-right: 32px;
+        }
+}

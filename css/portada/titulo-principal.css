@@ -1,17 +1,15 @@
-.titulo__principal {
-    line-height: 54px;
-    font-size: 3rem;
-}
 
 /*Mobile*/
-@media only screen and (max-width: 480px) {
+@media screen and (min-width: 0) {
     .titulo__principal {
-    font-size: 2rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
     }
 }    
 /*Tablet*/
-@media only screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     .titulo__principal {
     font-size: 2.5rem;
+    line-height: 3rem;
     }
 }   

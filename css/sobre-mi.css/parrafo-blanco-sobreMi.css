@@ -1,0 +1,28 @@
+
+.parrafo__blanco_sobreMi{
+    color: var(--fuente-blanco);
+    line-height: 2.5rem;
+    font-weight: 300;
+    padding-top: 30px;
+    font-size: 1.5rem;
+}
+
+
+/*Mobile*/
+/*
+@media screen and (min-width: 0) {
+    .parrafo__blanco_sobreMi{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+}
+*/
+/*Tablet*/
+@media screen and (min-width: 768px) {
+    .parrafo__blanco_sobreMi{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    
+} 

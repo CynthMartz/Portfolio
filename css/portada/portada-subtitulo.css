@@ -1,16 +1,20 @@
 .portada__subtitulo {
     text-align: left;
+    line-height: 1.5rem;
 }
 
 /*Mobile*/
-@media only screen and (max-width: 480px) {
+@media screen and (min-width: 0) {
     .portada__subtitulo {
         font-size: 1rem;
+        line-height: 1.5rem;
+        padding-top: 15px;
         }
 }
 /*Tablet*/
-@media only screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     .portada__subtitulo {
         font-size: 1.5rem;
+        line-height: 2rem;
         }
 }

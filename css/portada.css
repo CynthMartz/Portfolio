@@ -1,38 +1,36 @@
 .portada {
     display: flex;
     justify-content: space-between;
-    padding-top: 100px;
-    /* ver como solucionar esta parte
-    margin: 0 120px;
-    */
+    padding-top: 20px;
 }
 
 /*Mobile*/
-@media only screen and (max-width: 480px){
-    .container{
+@media screen and (min-width: 0) {
+    .container {
         margin: 0;
         max-width: 100%;
         padding-left: 2%;
         padding-right: 2%;
     }
-    .portada{
-        display: block;
-        padding-top: 50px;
-        margin: 0px;
+
+    .portada {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
     }
 }
 
 /*Tablet*/
-@media only screen and (max-width: 768px) {
-    .container{
+@media screen and (min-width: 768px) {
+    .container {
         margin: 0;
         max-width: 100%;
         padding-left: 4%;
         padding-right: 4%;
-        }
-        .portada{
-            display: block;
-            padding-top: 20px;
-            margin: 0px;
-        }
-}   
+    }
+
+    .portada {
+        margin: 0px;
+        margin: 0 120px;
+    }
+}

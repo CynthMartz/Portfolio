@@ -4,9 +4,3 @@
     align-items: left;
     justify-content: center;
 }
-
-@media only screen and (max-width: 480px) {
-    .portada__contenido {
-        margin-top: 2rem;
-        }
-}

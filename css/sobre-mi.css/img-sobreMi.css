@@ -1,0 +1,13 @@
+.img__sobreMi{
+        height: 288px;
+        padding-left: 25px;
+        padding-right: 25px;
+}
+
+/*Tablet*/
+
+@media screen and (min-width: 0) {
+        .img__sobreMi{
+                height: 150px;
+        }
+}  

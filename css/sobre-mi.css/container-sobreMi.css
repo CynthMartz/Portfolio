@@ -1,0 +1,30 @@
+.container__sobreMi {
+    padding: 120px 0;
+
+}
+
+/*Mobile*/
+@media  screen and (min-width: 0){
+    .container{
+        margin: 0;
+        max-width: 100%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .container__sobreMi {
+        padding: 50px 0px;
+    }
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+    .container{
+        margin: 0;
+        max-width: 100%;
+        padding-left: 4%;
+        padding-right: 4%;
+        }
+        .container__sobreMi {
+        padding: 80px 0px;
+        }
+}   
