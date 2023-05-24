@@ -1,0 +1,26 @@
+.skills {
+    background-color: var(--fuente-blanco);
+    
+}
+
+/*Mobile*/
+@media screen and (min-width: 0) {
+    .skills {
+        height: 480px;
+    }
+}
+
+/*Tablet*/
+
+@media screen and (min-width: 768px) {
+    .skills {
+        height: 500px;
+    }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+    .skills {
+        height: 800px;
+    }
+} 

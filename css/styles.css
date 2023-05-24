@@ -8,40 +8,9 @@
 
 
 
-/*Skills*/
-.skills {
-    background-color: var(--fuente-blanco);
-    padding-top: 100px;
-    height: 700px;
-}
 
-.subtitulo__negro {
-    text-align: center;
-    color: var(--fuente-lila);
-}
 
-.cards__tecno {
-    padding-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 40px;
-    margin: 0 120px;
-}
 
-.card {
-    width: 200px;
-    height: 180px;
-    border-radius: 30px;
-    background: #e0e0e0;
-    box-shadow: 15px 15px 30px var(--fuente-lila),
-        -15px -15px 30px #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
 
 /*Formacion academica*/
 .formacion {

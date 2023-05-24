@@ -1,0 +1,29 @@
+.subtitulo__negro {
+    text-align: center;
+    color: var(--fuente-lila);
+}
+
+
+/*MObile*/
+
+@media screen and (min-width: 0) {
+    .subtitulo__negro {
+        padding: 30px 0;
+        font-size: 1.5rem; 
+}
+} 
+/*Tablet*/
+@media screen and (min-width: 768px) {
+    .subtitulo__negro {
+        padding: 50px 0;
+        font-size: 2rem;
+    }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+    .subtitulo__negro{
+        padding: 100px 0;
+        font-size: 2.5rem;
+    }
+} 

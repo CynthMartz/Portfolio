@@ -1,0 +1,47 @@
+
+.cards__tecno {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+/*Mobile*/
+@media screen and (min-width: 0) {
+    .container {
+        margin: 0;
+        max-width: 100%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .cards__tecno  {
+        gap: 20px;
+        margin: 0 60px;
+    }
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+    .container {
+        margin: 0;
+        max-width: 100%;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    .cards__tecno  {
+        gap: 30px;
+        margin: 0 90px;
+    }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+    .cards__tecno{
+        gap: 40px;
+        margin: 0 120px;
+    }
+} 

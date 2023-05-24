@@ -1,0 +1,39 @@
+.card {
+    
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px var(--fuente-lila),
+        -15px -15px 30px #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card img{
+    width: 50%;
+}
+
+
+/*Mobile*/
+@media screen and (min-width: 0) {
+    .card {
+        width: 100px;
+        height: 90px;
+    }
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+    .card {
+        width: 100px;
+        height: 90px;
+    }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+    .card {
+        width: 200px;
+        height: 180px;
+    }
+} 
