@@ -1,7 +1,6 @@
 .portada {
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
 }
 
 /*Mobile*/
@@ -14,8 +13,6 @@
     }
 
     .portada {
-        display: flex;
-        justify-content: space-between;
         padding-top: 10px;
     }
 }
