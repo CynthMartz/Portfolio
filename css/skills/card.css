@@ -2,7 +2,7 @@
     
     border-radius: 30px;
     background: #e0e0e0;
-    box-shadow: 15px 15px 30px var(--fuente-lila),
+    box-shadow: 0px 8px 15px var(--fuente-lila),
         -15px -15px 30px #ffffff;
     display: flex;
     justify-content: center;
@@ -17,8 +17,8 @@
 /*Mobile*/
 @media screen and (min-width: 0) {
     .card {
-        width: 100px;
-        height: 90px;
+        width: 90px;
+        height: 80px;
     }
 }
 
