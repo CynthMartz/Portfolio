@@ -5,6 +5,7 @@
         .img__sobreMi {
                 height: 120px;
                 padding: 0 10px;
+                align-self: center;
         }
 }
 

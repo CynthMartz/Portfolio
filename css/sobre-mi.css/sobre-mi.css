@@ -10,9 +10,9 @@
 /*Mobile*/
 @media screen and (min-width: 0) {
     .sobre__mi{
-        padding-top: 20px;
-        margin: 0 50px;
-        height: 380px;
+        padding:20px 0;
+        margin: 0;
+        height: 400px;
     }
 
 }
@@ -20,9 +20,8 @@
 /*Tablet*/
 @media screen and (min-width: 768px) {
     .sobre__mi{
-            
             padding-top: 50px;
-            margin: 0 80px;
+            margin: 0 20px;
             height: 450px;
         }
 } 
