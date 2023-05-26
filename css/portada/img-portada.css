@@ -2,12 +2,12 @@
 /*Mobile*/
 @media screen and (min-width: 0) {
     .img__portada {
-        height: 180px;
+        width: 30%;
     }
 }  
 /*Tablet*/
 @media screen and (min-width: 768px) {
     .img__portada {
-        height: auto;
+        width: auto;
     }
 }  
