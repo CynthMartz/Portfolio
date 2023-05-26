@@ -1,0 +1,21 @@
+.flip__card__front {
+    box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 2px solid var(--fuente-verde);
+    border-radius: 30px;
+}
+
+.flip__card__front {
+    background: var(--fuente-blanco);
+    color: var(--fuente-blanco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

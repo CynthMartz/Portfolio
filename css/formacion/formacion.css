@@ -1,0 +1,24 @@
+
+/*Mobile*/
+@media screen and (min-width: 0) {
+
+    .formacion {
+        height: 300px;
+    }
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+
+    .formacion {
+        height: 450px;
+    }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+
+    .formacion {
+        height: 600px;
+    }
+}

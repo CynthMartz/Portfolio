@@ -1,0 +1,57 @@
+.flip__card {
+    background-color: transparent;
+    perspective: 1000px;
+    font-family: var(--poppins);
+
+}
+
+
+.flip__card:hover .flip__card__inner {
+    transform: rotateY(180deg);
+}
+
+
+/*Mobile*/
+@media screen and (min-width: 0) {
+    .container {
+        margin: 0;
+        max-width: 100%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .flip__card {
+        width: 95px;
+        height: 127px;
+    }
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+    .container {
+        margin: 0;
+        max-width: 100%;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    .flip__card {
+        width: 152px;
+        height: 203px;
+    }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+    .container {
+        margin: 0;
+        max-width: 100%;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .flip__card {
+        width: 190px;
+        height: 254px;
+    }
+}
