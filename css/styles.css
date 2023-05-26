@@ -1,4 +1,3 @@
-
 .parrafo__blanco {
     color: var(--fuente-blanco);
     line-height: 2rem;
@@ -6,64 +5,169 @@
 }
 
 
+/*Proyectos*/
 
 
-
-
-
-
-/*Formacion academica*/
-
-
-
-
-
-
-
-
-
-.flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
+.projects {
+    height: 1350px;
 }
 
-.flip-card-front,
-.flip-card-back {
-    box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
-    position: absolute;
+.container__projects {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-height: 100vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3.5em;
+    flex-wrap: wrap;
+}
+
+.cards_projects {
+    background: url(/img/encriptador.png);
+    background-size: cover;
+    width: 538px;
+    height: 386px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px 1px rgba(123, 97, 255, 0.19);
+}
+
+.overlay {
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    border: 2px solid var(--fuente-verde);
-    border-radius: 30px;
+    background: #f5f5f5;
+    color: black;
+    opacity: 0;
+    transition: all 0.5s;
+    font-family: var(--quattrocento-sans);
+    border-radius: 10px;
 }
 
-.flip-card-front {
-    background: var(--fuente-blanco);
-    color: var(--fuente-blanco);
+
+
+.cards__contenido {
+    font-size: 16px;
+    line-height: 20px;
+}
+.items {
+    padding-left: 20px;
+}
+.head {
+    font-size: 30px;
+    line-height: 30px;
+    /*transform: translateY(40px);*/
+    transition: all 0.7s;
+}
+
+.head,
+hr {
+    display: block;
+    width: 0;
+    border: none;
+    border-bottom: solid 2px #5C307D;
+    /* position: absolute;
+        bottom: 0;*/
+    left: 20px;
+    top: 130px;
+    transition: all .5s;
+}
+
+.price {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    line-height: 10px;
+    font-weight: bold;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.7s;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+}
+
+.button__tecno {
+    margin-right: 10px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(123, 97, 255, 0.38);
+    opacity: 0.5;
+    position: relative;
+    padding: 4px 12px;
+    display: flex;
     align-items: center;
-}
-
-.flip-card-back {
-    background: var(--fuente-lila);
-    color: var(--fuente-blanco);
-    transform: rotateY(180deg);
-}
-
-
-
-/*FOOTER*/
-.footer{
-    height: 50px;
-}
-
-.contenido__footer{
-    padding-top:20px ;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    border-radius: 99px;
+    outline: none;
+    overflow: hidden;
+    color: #5C307D;
     text-align: center;
+}
 
+.enlace {
+    display: flex;
+}
+
+.button_enlace {
+    height: 52px;
+    margin-right: 10px;
+    background: #5C307D;
+    position: relative;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 99px;
+    outline: none;
+    overflow: hidden;
+    color: #5C307D;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button_enlace a {
+    text-decoration: none;
+    color: #F5F5FF;
+}
+
+.cards_projects:hover .overlay {
+    opacity: 1;
+}
+
+.cards_projects:hover .overlay .head {
+    transform: translateY(20px);
+}
+
+.cards_projects:hover .overlay hr {
+    width: 150px;
+    transition-delay: 0.4s;
+}
+
+.cards_projects:hover .overlay .price {
+    transform: translateY(0px);
+    transition-delay: 0.3s;
+    opacity: 1;
+}
+
+.cards_projects:hover .overlay .enlace {
+    transform: translateY(0px);
+    transition-delay: 0.6s;
+    opacity: 1;
+}
+
+
+
+/*********************/
+/*Contacto*/
+.formulario__contacto {
+    background-color: var(--fuente-blanco);
+    padding-top: 30px;
+}
+
+.contacto__container {
+    display: flex;
 }
