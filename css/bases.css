@@ -10,9 +10,12 @@
     
     /*Botón*/
     --boton-lila: #5C307D;
-    
     --boton-verde:#7B61FF;/*38%*/
     
+    /*Inputs*/
+    --valido: #00D3AE;
+    --invalido: #d30000;
+
     /*Fuente*/
     --fuente-blanco: #F4F4F4;
     --fuente-verde:#00D3AE;
@@ -28,6 +31,7 @@
     --poppins:'Poppins', sans-serif;
     --quattrocento-sans:'Quattrocento Sans', sans-serif;
 
+    /*Colores Formulario*/
     }
     html, body {
         overflow-x: hidden; /* desactiva el scroll horizontal */
