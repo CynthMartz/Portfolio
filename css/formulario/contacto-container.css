@@ -1,0 +1,23 @@
+/*Mobile*/
+@media screen and (min-width: 0) {
+    .contacto__container{
+        display: block;
+    }
+}
+
+/*Tablet*/
+
+@media screen and (min-width: 768px) {
+    .contacto__container{
+        display: flex;
+    }
+}
+
+/*Desktop*/
+
+@media screen and (min-width: 1024px) {
+    .contacto__container{
+        display: flex;
+        justify-content: space-between;
+    }
+} 

@@ -1,0 +1,39 @@
+.formulario__validacion--estado {
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    font-size: 1rem;
+    opacity: 0;
+}
+
+/*Estios de validaciones*/
+.formulario__grupo--valido .formulario__validacion--estado {
+    color: var(--valido);
+    opacity: 1;
+}
+
+.formulario__grupo--valido .input {
+    border: 2px solid var(--valido);
+}
+
+.formulario__grupo--invalido {
+    margin-bottom: 0.5rem;
+}
+
+.formulario__grupo--invalido .formulario__validacion--estado {
+    color: var(--invalido);
+    opacity: 1;
+    bottom: 50px;
+}
+
+.formulario__grupo--invalido .label {
+    color: var(--invalido);
+}
+
+.formulario__grupo--invalido .input {
+    border: 2px solid var(--invalido);
+}
+
+.formulario__grupo--invalido .input__mensaje__error {
+    display: block;
+}
