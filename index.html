@@ -8,8 +8,10 @@
     , initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Quattrocento+Sans&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Quattrocento+Sans:wght@400;700&display=swap"
         rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b947fe8bbd.js" crossorigin="anonymous"></script>
     <!--Css-->
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/reset.css">
@@ -50,9 +52,23 @@
     <link rel="stylesheet" href="./css/formacion/flip-card.css">
     <link rel="stylesheet" href="./css/formacion/img-formacion.css">
     <link rel="stylesheet" href="./css/formacion/titulo-flip-card.css">
-
+    <!--Formulario-->
+    <link rel="stylesheet" href="./css/formulario/formulario.css">
+    <link rel="stylesheet" href="./css/formulario/contenido-formulario.css">
+    <link rel="stylesheet" href="./css/formulario/contacto-container.css">
+    <link rel="stylesheet" href="./css/formulario/fielset.css">
+    <link rel="stylesheet" href="./css/formulario/img-formulario.css">
+    <link rel="stylesheet" href="./css/formulario/input.css">
+    <link rel="stylesheet" href="./css/formulario/input-container.css">
+    <link rel="stylesheet" href="./css/formulario/input-mensaje-error.css">
+    <link rel="stylesheet" href="./css/formulario/label.css">
+    <link rel="stylesheet" href="./css/formulario/textarea.css">
+    <link rel="stylesheet" href="./css/formulario/formulario-validacion--estado.css">
+    <link rel="stylesheet" href="./css/formulario/button-enviar.css">
+    <!--Footer-->
     <link rel="stylesheet" href="./css/footer/footer.css">
     <link rel="stylesheet" href="./css/footer/contenido-footer.css">
+
 </head>
 
 <body>
@@ -85,10 +101,12 @@
             <div class="portada ">
                 <div class="portada__contenido">
                     <div class="portada__titulo">
-                        <h1 class="titulo__principal"><span>&#128406</span> Hola, <br> soy Cynthia <br> Front end Developer</h1>
+                        <h1 class="titulo__principal"><span>&#128406</span> Hola, <br> soy Cynthia <br> Front end
+                            Developer</h1>
                     </div>
 
-                    <p class="parrafo__blanco portada__subtitulo">Actualmente estoy participando en el proyecto  <br> Oracle
+                    <p class="parrafo__blanco portada__subtitulo">Actualmente estoy participando en el proyecto <br>
+                        Oracle
                         ONE en Alura
                         Latam.</p>
                 </div>
@@ -97,19 +115,21 @@
         </section>
 
         <!--Sobre mí-->
-        <section class="container container__sobreMi "id="sobre-mi">
+        <section class="container container__sobreMi " id="sobre-mi">
             <div class="sobre__mi">
                 <img class="img__sobreMi" src="img/celular.png" alt="Celular en la mano">
-                <div  class="parrafo__sobreMi">
+                <div class="parrafo__sobreMi">
                     <h2 class="subtitulo__sobreMi">Sobre mí</h2>
-                    <p class="parrafo__blanco parrafo__blanco_sobreMi">Soy estudiante de desarrolladora front end, me apasiona
+                    <p class="parrafo__blanco parrafo__blanco_sobreMi">Soy estudiante de desarrolladora front end, me
+                        apasiona
                         colaborar en
                         equipo y ayudar en todo lo
                         posible.
                         Siempre me he sentido muy comprometida con el aprendizaje, tanto enseñando como aprendiendo de
                         los
-                        demás.</p> 
-                    <p class="parrafo__blanco parrafo__blanco_sobreMi">Mi objetivo es encontrar una empresa que ofrezca oportunidades para
+                        demás.</p>
+                    <p class="parrafo__blanco parrafo__blanco_sobreMi">Mi objetivo es encontrar una empresa que ofrezca
+                        oportunidades para
                         poner en práctica mis habilidades
                         en
                         el área de front end utilizando cloud computing. Estoy convencida de que este sector me
@@ -213,7 +233,7 @@
 
                         </div>
                         <div class="items enlace">
-                            <button class="button_enlace"><a href="Figma"target="_blank">Figma</a></button>
+                            <button class="button_enlace"><a href="Figma" target="_blank">Figma</a></button>
                             <button class="button_enlace"><a href="Demo" target="_blank">Demo</a></button>
                         </div>
                     </div>
@@ -234,8 +254,11 @@
 
                         </div>
                         <div class="items enlace">
-                            <button class="button_enlace"><a href="https://www.figma.com/file/NH5tK2l5fhkzY3qQw2gxIC/Alura-Challenge---Desaf%C3%ADo-1---Encriptador?type=design&node-id=0-1&t=oQQ4Dpv6mzsMIGCS-0" target="_blank">Figma</a></button>
-                            <button class="button_enlace"><a href="https://cynthmartz.github.io/encriptador/" target="_blank">Demo</a></button>
+                            <button class="button_enlace"><a
+                                    href="https://www.figma.com/file/NH5tK2l5fhkzY3qQw2gxIC/Alura-Challenge---Desaf%C3%ADo-1---Encriptador?type=design&node-id=0-1&t=oQQ4Dpv6mzsMIGCS-0"
+                                    target="_blank">Figma</a></button>
+                            <button class="button_enlace"><a href="https://cynthmartz.github.io/encriptador/"
+                                    target="_blank">Demo</a></button>
                         </div>
                     </div>
                 </article>
@@ -283,67 +306,65 @@
         </section>
 
         <!--Contacto-->
-        <section class="container background__blanco" id="contacto">
+        <section class="container background__blanco container__formulario" id="contacto">
             <h2 class="subtitulo__negro">Contacto</h2>
             <div class="contacto__container">
-                <img src="/img/Notebook-contacto.png" alt="computador">
+                <img class="img__formulario" src="/img/Notebook-contacto.png" alt="computador">
                 <div>
                     <div class="contenido__formulario">
-                        <p class="contacto__titulo">¿Quieres contactarme?</p>
-                        <p class="contacto__descripcion">Complete el siguiente formulario y me pondré en contacto con
+                        <p >¿Quieres contactarme?</p>
+                        <p >Complete el siguiente formulario y me pondré en contacto con
                             usted lo antes posible.</p>
                     </div>
 
                     <form action="https://formsubmit.co/2016f958202ef4b536ee7b614a1927b4" method="POST"
                         class="formulario" id="formulario">
                         <fieldset class="fieldset">
+
                             <div class="formulario__grupo" id="grupo__usuario">
-                                <div class="formulario__grupo-input">
-                                    <input type="text" id="nombre" name="nombre" class="formulario__input"
-                                        placeholder="Nombre" required data-tipo="nombreCompleto">
-                                    <label class="formulario__label" for="nombre">Nombre </label>
-                                    <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
-                                    <span class="formulario__input-error">El campo no puede estar vacío.</span>
+                                <div class="input__container">
+                                    <input type="text" id="nombre" name="nombre" class="input"
+                                        placeholder="Nombre Completo:" required data-tipo="nombreCompleto">
+                                    <label class="label" for="nombre">Nombre</label>
+                                    <i class="formulario__validacion--estado fa-solid fa-xmark"></i>
+                                    <span class="input__mensaje__error">El campo no puede estar vacío.</span>
                                 </div>
                             </div>
 
                             <div class="formulario__grupo" id="grupo__email">
-                                <div class="formulario__grupo-input">
-                                    <input type="email" id="email" name="email" class="formulario__input" required
-                                        placeholder="Email" data-tipo="email">
-                                    <label class="formulario__label" for="email">Email</label>
-                                    <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
-                                    <span class="formulario__input-error">Ingrese algun correo.</span>
+                                <div class="input__container">
+                                    <input type="email" id="email" name="email" class="input" required
+                                        placeholder="Correo Electrónico:" data-tipo="email">
+                                    <label class="label" for="email">Email</label>
+                                    <i class="formulario__validacion--estado fa-solid fa-xmark"></i>
+                                    <span class="input__mensaje__error">Ingrese su email.</span>
                                 </div>
                             </div>
 
                             <div class="formulario__grupo" id="grupo__asunto">
-                                <div class="formulario__grupo-input">
-                                    <input type="text" id="asunto" name="asunto" class="formulario__input"
-                                        placeholder="Asunto" required data-tipo="asunto">
-                                    <label class="formulario__label" for="asunto">Asunto</label>
-                                    <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
-                                    <span class="formulario__input-error">El campo no puede estar vacío.</span>
+                                <div class="input__container">
+                                    <input type="text" id="asunto" name="asunto" class="input" placeholder="Asunto:"
+                                        required data-tipo="asunto">
+                                    <label class="label" for="asunto">Asunto</label>
+                                    <i class="formulario__validacion--estado fa-solid fa-xmark"></i>
+                                    <span class="input__mensaje__error">El campo no puede estar vacío.</span>
                                 </div>
                             </div>
 
                             <div class="formulario__grupo" id="grupo__mensaje">
-                                <div class="formulario__grupo-input">
-                                    <textarea id="mensaje" name="mensaje" cols="70" rows="10"
-                                        class="formulario__input textarea" placeholder="Mensaje:" required
-                                        data-tipo="mensaje"></textarea>
-                                    <label class="formulario__label" for="mensaje">Mensaje</label>
-                                    <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
-                                    <span class="formulario__input-error">El campo no puede estar vacío.</span>
+                                <div class="input__container">
+                                    <textarea id="mensaje" name="mensaje" cols="70" rows="10" class="input textarea"
+                                        placeholder="Mensaje:" required data-tipo="mensaje"></textarea>
+                                    <label class="label" for="mensaje">Mensaje</label>
+                                    <i class="formulario__validacion--estado fa-solid fa-xmark"></i>
+                                    <span class="input__mensaje__error">El campo no puede estar vacío.</span>
                                 </div>
 
                             </div>
                         </fieldset>
-                        <button type="submit" class="enviar"> Enviar
-                            <i class="fa-solid fa-paper-plane"></i>
+                        <button type="submit" class="button_enviar"> Enviar
                         </button>
-                        <input type="hidden" name="_next"
-                            value="https://cynthmartz.github.io/Portfolio/thanks.html">
+                        <input type="hidden" name="_next" value="https://cynthmartz.github.io/Portfolio/thanks.html">
                         <input type="hidden" name="_template" value="table">
                     </form>
                 </div>
@@ -358,7 +379,7 @@
     <footer class="container footer">
         <h6 class="contenido__footer">Desarrollado por Cynthia -2023</h6>
     </footer>
-    <script src="./js/app.js" type="module" ></script>
+    <script src="/js/app.js" type="module"></script>
 </body>
 
 
