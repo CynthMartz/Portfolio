@@ -1,0 +1,25 @@
+
+.button_enviar {
+    width: 100px;
+    height: 50px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    background:var(--fuente-verde);
+    color: var(--fuente-blanco);
+    font-family: var(--quattrocento-sans);
+    border: none;
+    border-radius: 99px;
+}
+
+.button_enviar:hover {
+    border: 2px solid var(--fuente-verde);
+    transition: .2s all;
+    overflow: hidden;
+    font-weight: 700;
+    color: var(--fuente-verde);
+    background: var(--fuente-blanco);
+}
